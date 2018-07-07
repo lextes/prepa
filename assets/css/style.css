@@ -73,6 +73,55 @@ a.brand:hover {
 }
 
 /* copy */
-.copy {margin: 200px 20px; font-size: 12px;}
+.copy {margin: 150px 50px; font-size: 12px;}
 .copy.main {margin: 12px 0}
 .navigation .copy a {color: #eee}
+
+/* cuadros demo */
+.cuadros{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px
+}
+
+.cuadrosDisplay{
+    display: inline-flex;
+    padding: 10px;
+}
+
+.offBullet{
+    list-style:none;
+}
+
+/* Reactivos*/
+
+.containerReactivo{
+    padding:0 80px;
+    padding-top: 50px;
+    letter-spacing: 2px
+}
+
+[type="checkbox"]{display: none;}
+
+label{
+    padding-left: 1.3em;
+    position: relative;
+}
+
+label:before{
+    content: ' ';
+    border: solid 4px #323741;    
+    border-radius: 30px;
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    left: 0px;
+}
+
+[type="checkbox"]:checked + label:before{
+    border-color: #F47942;
+    color: #F47942;
+    content:'\f00c';
+    font-family: FontAwesome;
+    transform: rotate(360deg);
+}
