@@ -62,14 +62,14 @@ ul { list-style: inherit; list-style-position: inside; }
 /* brand */
 a.brand {
     text-decoration: none;
-    padding: 30px 80px;
+    padding: 20px 50px;
     display: block;
-    color: #888;
-    font-weight: bold
+    color: #fff;
+    background: #fff;
 }
 a.brand:hover {
     color: #fff;
-    background: #45C48B;
+    background: #06858C; 
 }
 
 /* copy */
